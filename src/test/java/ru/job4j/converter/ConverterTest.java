@@ -1,12 +1,30 @@
 package ru.job4j.converter;
 
 import junit.framework.TestCase;
+import org.junit.Assert;
+import org.junit.Test;
 
-public class ConverterTest extends TestCase {
+public class ConverterTest {
 
-    public void testRubleToEuro() {
+    @Test
+    public void whenConvert140RblThen2Euro() {
+        float in = 140;
+        float expected = 2;
+        float out = Converter.rubleToEuro(in);
+        float eps = 0.0001f;
+        Assert.assertEquals(expected, out, eps);
     }
 
-    public void testRubleToDollar() {
+    @Test
+    public void whenConvert200RblThen3dot3333Dlr() {
+    }
+
+    @Test
+    public void whenConverter180testRblThen3Dollar() {
+        float in = 180;
+        float expected = 3;
+        float out = Converter.rubleToDollar(in);
+        float eps = 0.0001f;
+        Assert.assertEquals(expected, out, eps);
     }
 }
