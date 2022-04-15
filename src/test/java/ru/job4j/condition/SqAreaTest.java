@@ -1,8 +1,7 @@
-package ru.job4j.ru.job4j.condition;
+package ru.job4j.condition;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ru.job4j.condition.SqArea;
 
 public class SqAreaTest {
 
@@ -25,7 +24,7 @@ public class SqAreaTest {
     }
 
     @Test
-    public void whenPK2Square20() {
+    public void whenP20K1Square25() {
         int expected = 25;
         int p = 20;
         double k = 1;
