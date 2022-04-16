@@ -7,28 +7,29 @@ public class SwitchWeek {
         switch (day) {
             case 1 :
                 name = "Понедельник";
-                return name;
+                break;
             case 2 :
                 name = "Вторник";
-                return name;
+                break;
             case 3 :
                 name = "Среда";
-                return name;
+                break;
             case 4 :
                 name = "Четверг";
-                return name;
+                break;
             case 5 :
                 name = "Пятница";
-                return name;
+                break;
             case 6 :
                 name = "Суббота";
-                return name;
+                break;
             case 7:
                 name = "Всокресенье";
-                return name;
+                break;
             default:
                 name = "Ошибка";
-                return name;
+                break;
         }
+        return name;
     }
 }
