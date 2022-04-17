@@ -5,12 +5,8 @@ public class Counter {
     public static int sum(int start, int finish) {
         int sum = 0;
         for (int i = start; i <= finish; i++) {
-            if (start == finish) {
-                sum = sum + finish + i;
-            } else {
                 sum = sum + i;
             }
-        }
         return sum;
     }
 
