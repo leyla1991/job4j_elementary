@@ -5,7 +5,7 @@ public class CheckPrimeNumber {
     public static boolean check(int number) {
         boolean prime = number > 1;
         for (int i = 2; i <= Math.abs(number); i++) {
-            if (number % i == 0 && i != number) {
+            if (number % i == 0 && i <= Math.abs(number)) {
                 prime = false;
                 break;
             }
