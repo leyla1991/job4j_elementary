@@ -13,9 +13,8 @@ public class AlgoArray {
         int number = array[1];
         array[1] = array[2];
         array[2] = number;
-
-        for (int index = 0; index < array.length; index++) {
-            System.out.println(array[index]);
+        for (int i : array) {
+            System.out.println(i);
         }
     }
 }

@@ -9,7 +9,6 @@ public class MatrixSum {
                 rsl += array[i][index];
             }
         }
-
         return rsl;
     }
 }
