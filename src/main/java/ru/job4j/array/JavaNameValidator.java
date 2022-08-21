@@ -15,6 +15,7 @@ public class JavaNameValidator {
                         || !isLowerLatinLetter(pcp)
                         || !Character.isDigit(pcp)) {
                     rsl = false;
+                    break;
                 }
             }
         }
